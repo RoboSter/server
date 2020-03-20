@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Utilities.Web
+namespace RoboSter.Utilities.Web
 {
     [ApiController]
     public class WebServiceControllerBase : ControllerBase

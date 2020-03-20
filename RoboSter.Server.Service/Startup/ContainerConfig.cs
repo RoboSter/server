@@ -1,7 +1,7 @@
 using Autofac;
-using Utilities.Container;
+using RoboSter.Utilities.Container;
 
-namespace Service.Startup
+namespace RoboSter.Server.Service.Startup
 {
     public static class ContainerConfig
     {

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using Utilities.Web;
+using RoboSter.Utilities.Web;
 
-namespace Service.WebService.Controllers
+namespace RoboSter.Server.Service.WebService.Controllers
 {
     public class PingController : WebServiceControllerBase
     {

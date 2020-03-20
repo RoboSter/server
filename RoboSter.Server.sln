@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{E0D177F8-185E-471F-9859-8BB1AE28C43B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboSter.Server.Service", "RoboSter.Server.Service\RoboSter.Server.Service.csproj", "{E0D177F8-185E-471F-9859-8BB1AE28C43B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{DD8F6C8E-7012-4FE2-A692-B89178037FB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboSter.Utilities", "RoboSter.Utilities\RoboSter.Utilities.csproj", "{DD8F6C8E-7012-4FE2-A692-B89178037FB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

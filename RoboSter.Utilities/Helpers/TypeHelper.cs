@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace Utilities.Helpers
+namespace RoboSter.Utilities.Helpers
 {
     public static class TypeHelper
     {

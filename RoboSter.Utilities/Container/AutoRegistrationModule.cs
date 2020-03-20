@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Autofac;
-using Utilities.Helpers;
+using RoboSter.Utilities.Helpers;
 
-namespace Utilities.Container
+namespace RoboSter.Utilities.Container
 {
     public class AutoRegistrationModule :  Autofac.Module
     {

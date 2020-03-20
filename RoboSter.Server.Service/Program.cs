@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Hosting;
-using Service.Startup;
+using RoboSter.Server.Service.Startup;
 
-namespace Service
+namespace RoboSter.Server.Service
 {
     public class Program
     {

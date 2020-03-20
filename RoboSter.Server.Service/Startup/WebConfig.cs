@@ -2,7 +2,7 @@ using JetBrains.Annotations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Service.Startup
+namespace RoboSter.Server.Service.Startup
 {
     public class WebConfig
     {

@@ -6,6 +6,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Utilities\Utilities.csproj" />
+      <ProjectReference Include="..\RoboSter.Utilities\RoboSter.Utilities.csproj" />
     </ItemGroup>
 </Project>

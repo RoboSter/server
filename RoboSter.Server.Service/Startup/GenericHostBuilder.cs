@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
-namespace Service.Startup
+namespace RoboSter.Server.Service.Startup
 {
     public static class GenericHostBuilder
     {

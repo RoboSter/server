@@ -1,4 +1,4 @@
-namespace Utilities.Helpers
+namespace RoboSter.Utilities.Helpers
 {
     public static class StringHelper
     {

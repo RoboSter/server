@@ -1,6 +1,6 @@
 using System;
 
-namespace Utilities.Container
+namespace RoboSter.Utilities.Container
 {
     public class PreventAutoRegistrationAttribute : Attribute
     {
