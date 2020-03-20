@@ -2,7 +2,6 @@ using System.IO;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace RoboSter.Server.Service.Startup
@@ -21,21 +20,14 @@ namespace RoboSter.Server.Service.Startup
 
         private static IHostBuilder ConfigureCommon(this IHostBuilder hostBuilder)
         {
-            return hostBuilder.ConfigureAppConfiguration((context, configurationBuilder) =>
-                {
-                    var env = context.HostingEnvironment;
-                    configurationBuilder
-                        .SetBasePath(env.ContentRootPath)
-                        .AddJsonFile("appsettings.json", true, true)
-                        .AddJsonFile($"appsettings.{env.EnvironmentName}.json", true)
-                        .AddEnvironmentVariables();
-                })
-                .ConfigureContainer<ContainerBuilder>(ContainerConfig.Configure);
+            return hostBuilder.ConfigureContainer<ContainerBuilder>(ContainerConfig.Configure)
+                ;
         }
 
         private static IHostBuilder ConfigureWorker(this IHostBuilder hostBuilder)
         {
-            return hostBuilder;
+            return hostBuilder
+                ;
         }
 
         private static IHostBuilder ConfigureWeb(this IHostBuilder hostBuilder)

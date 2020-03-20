@@ -16,6 +16,11 @@ namespace RoboSter.Utilities.Configuration
         {
             return configuration[key];
         }
+
+        public T GetValue<T>(string key)
+        {
+            return configuration.GetValue<T>(key);
+        }
         
         public T GetValue<T>(string key, Func<string, T> converter)
         {
