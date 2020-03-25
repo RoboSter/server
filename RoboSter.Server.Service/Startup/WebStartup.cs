@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using RoboSter.Server.Service.WebService;
 
 namespace RoboSter.Server.Service.Startup
 {
@@ -9,6 +10,9 @@ namespace RoboSter.Server.Service.Startup
         [UsedImplicitly]
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpClient()
+                .AddHttpClient<IWebApiClient, WebApiClient>(nameof(WebApiClient));
+
             services.AddMvc()
                 .AddControllersAsServices()
                 .AddNewtonsoftJson();
