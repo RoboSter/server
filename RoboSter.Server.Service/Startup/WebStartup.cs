@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace RoboSter.Server.Service.Startup
 {
-    public class WebConfig
+    public class WebStartup
     {
         [UsedImplicitly]
         public void ConfigureServices(IServiceCollection services)

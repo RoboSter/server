@@ -36,7 +36,7 @@ namespace RoboSter.Server.Service.Startup
             {
                 webHostBuilder
                     .UseContentRoot(Directory.GetCurrentDirectory())
-                    .UseStartup<WebConfig>();
+                    .UseStartup<WebStartup>();
             });
         }
     }
