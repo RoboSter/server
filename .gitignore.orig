@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+bin/
+obj/
+/packages/
+.idea
+=======
 # List files, folders & patterns that git should ignore
 # Remember that no binaries or user-specific files should be tracked
 
@@ -24,3 +30,4 @@ bld/
 
 ## Virtual env 4 Python
 venv/
+>>>>>>> a2f643b... Initial commit
