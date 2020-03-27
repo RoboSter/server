@@ -3,6 +3,7 @@
 
 # Check out https://github.com/github/gitignore for different gitignore templates or compose it by yourself
 
+*.orig
 ## .NET-specific IDE ignores
 
 .idea
