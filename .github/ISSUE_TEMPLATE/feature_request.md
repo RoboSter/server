@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-### Problem
+### About
 
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
@@ -22,10 +22,6 @@ I want ... [what]
 ### Solution 
 
 A clear and concise description of what you want to happen.
-
-### Alternatives 
-
-A clear and concise description of any alternative solution scenarios or features you've considered.
 
 ### Additional Info
 
