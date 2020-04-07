@@ -28,7 +28,8 @@ namespace RoboSter.Utilities.Container
             builder.RegisterAssemblyTypes(assembly)
                 .Where(type => !type.HasAttribute<PreventAutoRegistrationAttribute>())
                 .Where(type => !excludedTypes.Contains(type))
-                .AsImplementedInterfaces();
+                .AsImplementedInterfaces()
+                .AsSelf();
         }
     }
 }
