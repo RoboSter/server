@@ -1,7 +1,7 @@
 using System.Globalization;
 using Newtonsoft.Json;
 
-namespace RoboSter.Utilities.Helpers
+namespace RoboSter.Utilities.Json
 {
     public static class JsonHelper
     {
